@@ -107,6 +107,3 @@ docker run -p 3000:3000 --env-file .env genbuild
 - **Dependency validation** — every npm package suggested by the AI is verified against the npm registry before being included, preventing broken builds from hallucinated packages.
 - **Stale-closure-safe React state** — uses refs alongside state to keep long-running async streams reading fresh data without unnecessary re-renders.
 
-## License
-
-This project was built as a learning exercise on top of an open-source tutorial codebase, with added Redis caching, rate limiting, and Docker containerization/deployment.
